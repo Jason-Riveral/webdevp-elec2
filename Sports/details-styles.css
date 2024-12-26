@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8E6;
+    color: #333;
+  }
+  
+  header {
+    background-color: #8D0B41;
+    color: #FFF8E6;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  .game-summary {
+    padding: 20px;
+    background-color: #D6CFB4;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  .game-summary h2 {
+    color: #8D0B41;
+  }
+  
+  .star-players {
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFF8E6;
+    border-radius: 8px;
+  }
+  
+  .star-players h2 {
+    color: #8D0B41;
+    margin-bottom: 20px;
+  }
+  
+  .player-highlight {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #D6CFB4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .player-info h3 {
+    margin: 0;
+    color: #8D0B41;
+  }
+  
+  .player-info p {
+    margin: 5px 0 0;
+    color: #333;
+  }

@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8E6;
+    color: #333;
+    text-align: center;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #8D0B41;
+    color: #FFF;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .sports-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .sport {
+    background-color: #D6CFB4;
+    border: 2px solid #D39D55;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sport h2 {
+    color: #8D0B41;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .sport p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .sport-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .sport .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8D0B41;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sport .btn:hover {
+    background-color: #D39D55;
+  }
+  
+  body.marathon-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8E6;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #8D0B41;
+    color: #FFF;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .details-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #D6CFB4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-section h2 {
+    color: #8D0B41;
+    margin-bottom: 15px;
+  }
+  
+  .details-section p, .details-section ul {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .details-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .details-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .image-box {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #FFF8E6;
+    border: 2px solid #D39D55;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8D0B41;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #D39D55;
+  }
+
+  .back {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8D0B41;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .back:hover {
+    background-color: #D39D55;
+  }
