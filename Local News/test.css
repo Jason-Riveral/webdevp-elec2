@@ -183,6 +183,7 @@ img{
     .box1, .box3, .box2, .headline {
         max-width: 100%; 
         left: 0;
+        margin: 0 auto;
     }
 
     .right-column{
