@@ -186,15 +186,39 @@ img{
         margin: 0 auto;
     }
 
+    .headline{
+        font-size: 3rem;
+    }
+
     .right-column{
         flex-direction: column;
         position: relative;
         align-self: center;
+        gap: 15px;
+        width: 100%; 
+        padding: 0 10px;
     }
 
+.right-column .box2, 
+.right-column .box4, 
+.right-column .box5, 
+.right-column .box6, 
+.right-column .box7 {
+        width: 90%; 
+        max-width: 300px; 
+        margin: 0 auto; 
+
+    .left-column,.right-column{
+        width: 100%;
+        padding: 0 10px;
+    }
     .header{
         text-align: center;
         flex-direction: initial;
+    }
+
+    header h1{
+        text-align: center;
     }
 
 }
@@ -205,4 +229,5 @@ footer {
     color: #FFF8E6;
     padding: 15px;
     margin-top: 30px;
+}
 }
